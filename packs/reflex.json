@@ -1348,8 +1348,8 @@
           "name": "berserk",
           "anchor": "Parent",
           "pos": [
-            -190.0,
-            24.0
+            -138.0,
+            23.0
           ],
           "opacity": 1.0,
           "trigger": {
@@ -1444,8 +1444,8 @@
               ],
               "conditions": [],
               "size": [
-                207.0,
-                8.0
+                259.0,
+                10.0
               ],
               "align": "Left",
               "direction": "Right",
