@@ -106,7 +106,7 @@
           "animation": null,
           "type": "Icon",
           "icon": {
-            "File": "elite-specs\\vindi\\level-0.png"
+            "File": "reflex\\vindi\\level-0.png"
           },
           "tint": [
             1.0,
@@ -200,7 +200,7 @@
               "animation": null,
               "type": "Icon",
               "icon": {
-                "File": "elite-specs\\vindi\\swoosh.png"
+                "File": "reflex\\vindi\\swoosh.png"
               },
               "tint": [
                 1.0,
@@ -261,7 +261,7 @@
               "animation": null,
               "type": "Icon",
               "icon": {
-                "File": "elite-specs\\vindi\\level-1.png"
+                "File": "reflex\\vindi\\level-1.png"
               },
               "tint": [
                 1.0,
@@ -322,7 +322,7 @@
               "animation": null,
               "type": "Icon",
               "icon": {
-                "File": "elite-specs\\vindi\\level-2.png"
+                "File": "reflex\\vindi\\level-2.png"
               },
               "tint": [
                 1.0,
@@ -386,7 +386,7 @@
               },
               "type": "Icon",
               "icon": {
-                "File": "elite-specs\\vindi\\exclamation.png"
+                "File": "reflex\\vindi\\exclamation.png"
               },
               "tint": [
                 1.0,
@@ -484,7 +484,7 @@
               "animation": null,
               "type": "Icon",
               "icon": {
-                "File": "elite-specs\\vindi\\flames.png"
+                "File": "reflex\\vindi\\flames.png"
               },
               "tint": [
                 1.0,
