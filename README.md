@@ -6,6 +6,7 @@ Currently only designed for "Larger" UI size setting.
 
 ## Mechanics
 
-- **Vindicator**: Dodge, Reaver's Curse
 - **Willbender**: Virtue active effect durations
+- **Vindicator**: Dodge, Reaver's Curse
 - **Berserker**: Berserk duration
+- **Bladesworn**: Flow stacks
