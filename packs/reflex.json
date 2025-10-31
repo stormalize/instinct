@@ -1455,6 +1455,79 @@
           ]
         }
       ]
+    },
+    {
+      "enabled": true,
+      "name": "bladesworn",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -114.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "positive-flow",
+          "anchor": "Parent",
+          "pos": [
+            -278.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                62836
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": []
+        }
+      ]
     }
   ]
 }
