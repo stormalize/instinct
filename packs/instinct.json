@@ -2011,7 +2011,9 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
+          "specs": [
+            "Harbinger"
+          ],
           "weapons": [],
           "traits": [],
           "mounts": []
