@@ -6,6 +6,7 @@ Currently only designed for "Larger" UI size setting.
 
 ## Mechanics
 
+- **Harbinger**: Blight
 - **Willbender**: Virtue active effect durations
 - **Vindicator**: Dodge, Reaver's Curse
 - **Berserker**: Berserk duration
