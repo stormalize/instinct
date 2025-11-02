@@ -3586,6 +3586,965 @@
           ]
         }
       ]
+    },
+    {
+      "enabled": true,
+      "name": "weaver",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -219.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [
+            "Weaver"
+          ],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "weave-self",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                42951
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "duration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                53.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25.0,
+              "lower_bound": 0.0,
+              "upper_bound": 1.0,
+              "fill": [
+                0.99999,
+                1.0,
+                0.99999,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.2509804
+              ],
+              "border_size": 1.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "size": [
+                94.0,
+                8.0
+              ],
+              "align": "Center",
+              "direction": "Right",
+              "tick_unit": "Percent",
+              "ticks": []
+            },
+            {
+              "enabled": true,
+              "name": "main",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\main.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "ring",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\ring.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "fire",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    45110
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\fire.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "fire-pulse",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    45110
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\fire-hi.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "water",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    43499
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\water.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "water-pulse",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    43499
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\water-hi.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "air",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    43038
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\air.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "air-pulse",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    43038
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\air-hi.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "earth",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    45662
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\earth.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "earth-pulse",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    45662
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\earth-hi.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "perfect-weave",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                45267
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "main",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": {
+                  "Bounce": {
+                    "intensity": 2.0
+                  }
+                },
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\weaver\\tailored-victory.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                124.0,
+                124.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "duration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                53.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25.0,
+              "lower_bound": 0.0,
+              "upper_bound": 1.0,
+              "fill": [
+                0.99999,
+                1.0,
+                0.99999,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.2509804
+              ],
+              "border_size": 1.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "size": [
+                94.0,
+                8.0
+              ],
+              "align": "Center",
+              "direction": "Right",
+              "tick_unit": "Percent",
+              "ticks": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

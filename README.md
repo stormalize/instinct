@@ -6,6 +6,7 @@ Currently only designed for "Larger" UI size setting.
 
 ## Mechanics
 
+- **Weaver**: Weave Self (elite skill)
 - **Harbinger**: Blight
 - **Untamed**: Unleashed Power ready
 - **Willbender**: Virtue active effect durations
