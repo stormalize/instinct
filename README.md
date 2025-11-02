@@ -7,6 +7,7 @@ Currently only designed for "Larger" UI size setting.
 ## Mechanics
 
 - **Harbinger**: Blight
+- **Untamed**: Unleashed Power ready
 - **Willbender**: Virtue active effect durations
 - **Vindicator**: Dodge, Reaver's Curse
 - **Berserker**: Berserk duration
