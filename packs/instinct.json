@@ -2739,6 +2739,67 @@
             },
             {
               "enabled": true,
+              "name": "glass-cracks",
+              "anchor": "Parent",
+              "pos": [
+                49.0,
+                -2.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Health",
+                "threshold": {
+                  "threshold_type": {
+                    "Below": 50.0
+                  },
+                  "amount_type": "Percent"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\harbinger\\glass-cracks.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                292.0,
+                120.0
+              ]
+            },
+            {
+              "enabled": true,
               "name": "glow",
               "anchor": "Parent",
               "pos": [
