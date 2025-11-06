@@ -1581,7 +1581,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.497006
+                0.8023952
               ],
               "border_size": 1.0,
               "border_color": [
@@ -1606,6 +1606,130 @@
               "direction": "Right",
               "tick_unit": "Percent",
               "ticks": []
+            },
+            {
+              "enabled": true,
+              "name": "duration-texture-a",
+              "anchor": "Parent",
+              "pos": [
+                -130.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 1500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\berserker\\duration1.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                260.0,
+                8.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "duration-texture-b",
+              "anchor": "Parent",
+              "pos": [
+                -130.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 850
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "instinct\\berserker\\duration2.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                260.0,
+                8.0
+              ]
             }
           ]
         }
