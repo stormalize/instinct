@@ -15,3 +15,9 @@ This pack covers some of the more important profession mechanics that are primar
 - **Vindicator**: Enhanced endurance indicator, Reaver's Curse
 - **Berserker**: Berserk duration
 - **Bladesworn**: Flow stacks
+
+## Previews
+
+![preview of effects in game 1](./_preview/instinct-preview-a.png)
+
+![preview of effects in game 2](./_preview/instinct-preview-b.png)
