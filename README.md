@@ -6,6 +6,8 @@ This pack covers some of the more important profession mechanics that are primar
 
 **Note** that this pack is designed to fit into native UI elements and has been designed for the "Larger" UI size setting. Reffect offers a resize feature for packs that may help fitting it to the other UI sizes.
 
+Zip archive is available under Releases.
+
 ## Mechanics
 
 - **Weaver**: Weave Self (elite skill)
